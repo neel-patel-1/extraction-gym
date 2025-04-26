@@ -26,7 +26,10 @@ impl Extractor for GoodLPExtractor {
         let mut topo_vars: HashMap<ClassId, Variable> = HashMap::new();
         for (class_id, class) in egraph.classes() {
             let t_m = vars.add(variable().min(0.0).max(1.0));
-            topo_vars.insert(class.id.clone(), t_m);
+            topo_vars.insert(class_id.clone(), t_m);
+        }
+        for (class_id, class) in egraph.classes() {
+            let t_m = topo_vars[&class_id].clone();
 
             for (node_index, _node) in class.nodes.iter().enumerate() {
                 let node_var = { enode_vars
@@ -47,12 +50,14 @@ impl Extractor for GoodLPExtractor {
                     }
                     let child_sum: Expression = child_vars.iter().cloned().sum();
                     constraints.push(Into::<Expression>::into(node_var.clone()).leq(child_sum));
+                    println!("Adding constraint: node_var <= sum(child_vars) for class {:?}, node index {}", class_id, node_index); //constraint
 
                     let node_expr: Expression = node_var.clone().into();
                     let t_child = topo_vars[&child_class.id].clone();
                     let big_m_part: Expression = (Into::<Expression>::into(1.0) - node_expr.clone()) * ALPHA;
-                    let acyc_expr: Expression = t_m.clone() - t_child - (Into::<Expression>::into(EPS)) + big_m_part;
+                    let acyc_expr: Expression = t_m.clone() - t_child - (Into::<Expression>::into(EPS)) + big_m_part.clone();
                     constraints.push(Into::<Expression>::into(acyc_expr).geq(Into::<Expression>::into(0)));
+                    println!("Adding acyclicity constraint: t_m - t_child - EPS + big_m_part >= 0 for parent class {:?}, child class {:?}, node index {}", class_id, child_class.id, node_index); //constraint
                 }
                 let node = &egraph[_node];
                 let cost = node.cost.into_inner();
@@ -60,7 +65,10 @@ impl Extractor for GoodLPExtractor {
                 total_cost += cost * node_var;
             }
         }
+        println!("Total cost function: {:?}", total_cost);
+
         for root in roots {
+            println!("Num Classes: {} Root Class: {}", egraph.classes().len(), root);
             let root_class = &egraph[root];
             let root_vars = root_class
                 .nodes
@@ -69,6 +77,7 @@ impl Extractor for GoodLPExtractor {
                 .map(|(node_index, _)| enode_vars[&(root.clone(), node_index)].clone())
                 .collect::<Vec<_>>();
             constraints.push(root_vars.iter().cloned().sum::<Expression>().eq(1));
+            println!("Adding root constraint: sum(root_vars) == 1 for root_vars = {:?}", root_vars);
         }
 
         let solution = vars
