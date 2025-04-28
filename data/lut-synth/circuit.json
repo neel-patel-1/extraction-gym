@@ -1,0 +1,1570 @@
+{
+  "nodes": {
+    "8.34": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "6.0",
+        "2.0",
+        "5.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.0": {
+      "op": "LUT",
+      "children": [
+        "0.0",
+        "4.0",
+        "7.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.10": {
+      "op": "LUT",
+      "children": [
+        "27.0",
+        "2.0",
+        "3.0",
+        "7.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.37": {
+      "op": "LUT",
+      "children": [
+        "85.0",
+        "6.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.25": {
+      "op": "LUT",
+      "children": [
+        "56.0",
+        "3.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "80.0": {
+      "op": "226",
+      "children": [],
+      "eclass": "80",
+      "cost": 0
+    },
+    "75.18": {
+      "op": "LUT",
+      "children": [
+        "50.0",
+        "4.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "73.0": {
+      "op": "63624",
+      "children": [],
+      "eclass": "73",
+      "cost": 0
+    },
+    "8.49": {
+      "op": "LUT",
+      "children": [
+        "113.0",
+        "6.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.4": {
+      "op": "LUT",
+      "children": [
+        "17.0",
+        "7.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "63.0": {
+      "op": "81",
+      "children": [],
+      "eclass": "63",
+      "cost": 0
+    },
+    "8.20": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "5.0",
+        "6.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.19": {
+      "op": "LUT",
+      "children": [
+        "60.0",
+        "2.0",
+        "6.0",
+        "4.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.9": {
+      "op": "LUT",
+      "children": [
+        "31.0",
+        "2.0",
+        "7.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "83.0": {
+      "op": "69",
+      "children": [],
+      "eclass": "83",
+      "cost": 0
+    },
+    "71.0": {
+      "op": "202",
+      "children": [],
+      "eclass": "71",
+      "cost": 0
+    },
+    "38.0": {
+      "op": "234",
+      "children": [],
+      "eclass": "38",
+      "cost": 0
+    },
+    "5.0": {
+      "op": "NOT",
+      "children": [
+        "2.0"
+      ],
+      "eclass": "5",
+      "cost": 0
+    },
+    "75.12": {
+      "op": "LUT",
+      "children": [
+        "31.0",
+        "6.0",
+        "4.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.8": {
+      "op": "LUT",
+      "children": [
+        "23.0",
+        "7.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.28": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "6.0",
+        "5.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.47": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "6.0",
+        "3.0",
+        "2.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "115.0": {
+      "op": "228",
+      "children": [],
+      "eclass": "115",
+      "cost": 0
+    },
+    "8.18": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "3.0",
+        "2.0",
+        "6.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.26": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "5.0",
+        "6.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.15": {
+      "op": "LUT",
+      "children": [
+        "38.0",
+        "5.0",
+        "6.0",
+        "4.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "50.0": {
+      "op": "242",
+      "children": [],
+      "eclass": "50",
+      "cost": 0
+    },
+    "7.2": {
+      "op": "LUT",
+      "children": [
+        "25.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "7",
+      "cost": 1
+    },
+    "8.15": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "2.0",
+        "3.0",
+        "5.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.42": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "3.0",
+        "5.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.10": {
+      "op": "LUT",
+      "children": [
+        "31.0",
+        "3.0",
+        "7.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "107.0": {
+      "op": "220",
+      "children": [],
+      "eclass": "107",
+      "cost": 0
+    },
+    "8.1": {
+      "op": "LUT",
+      "children": [
+        "0.0",
+        "7.0",
+        "4.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.24": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "3.0",
+        "2.0",
+        "6.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.35": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "3.0",
+        "5.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.47": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "3.0",
+        "6.0",
+        "5.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "100.0": {
+      "op": "60576",
+      "children": [],
+      "eclass": "100",
+      "cost": 0
+    },
+    "129.0": {
+      "op": "216",
+      "children": [],
+      "eclass": "129",
+      "cost": 0
+    },
+    "8.33": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "5.0",
+        "3.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "7.1": {
+      "op": "LUT",
+      "children": [
+        "1.0",
+        "6.0",
+        "5.0"
+      ],
+      "eclass": "7",
+      "cost": 1
+    },
+    "15.0": {
+      "op": "14",
+      "children": [],
+      "eclass": "15",
+      "cost": 0
+    },
+    "75.44": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "2.0",
+        "5.0",
+        "6.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.29": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "2.0",
+        "6.0",
+        "3.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "85.0": {
+      "op": "71",
+      "children": [],
+      "eclass": "85",
+      "cost": 0
+    },
+    "75.0": {
+      "op": "MUX",
+      "children": [
+        "2.0",
+        "3.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.38": {
+      "op": "LUT",
+      "children": [
+        "92.0",
+        "4.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.25": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "5.0",
+        "6.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.14": {
+      "op": "LUT",
+      "children": [
+        "42.0",
+        "2.0",
+        "4.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "5.1": {
+      "op": "LUT",
+      "children": [
+        "0.0",
+        "2.0"
+      ],
+      "eclass": "5",
+      "cost": 0
+    },
+    "8.43": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "3.0",
+        "6.0",
+        "5.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.24": {
+      "op": "LUT",
+      "children": [
+        "54.0",
+        "4.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "46.0": {
+      "op": "53",
+      "children": [],
+      "eclass": "46",
+      "cost": 0
+    },
+    "75.7": {
+      "op": "LUT",
+      "children": [
+        "23.0",
+        "7.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.11": {
+      "op": "LUT",
+      "children": [
+        "27.0",
+        "3.0",
+        "2.0",
+        "7.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.12": {
+      "op": "LUT",
+      "children": [
+        "27.0",
+        "5.0",
+        "6.0",
+        "4.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.44": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "5.0",
+        "2.0",
+        "3.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.40": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "6.0",
+        "3.0",
+        "5.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "113.0": {
+      "op": "39",
+      "children": [],
+      "eclass": "113",
+      "cost": 0
+    },
+    "75.11": {
+      "op": "LUT",
+      "children": [
+        "31.0",
+        "5.0",
+        "4.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.45": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "5.0",
+        "3.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.22": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "6.0",
+        "5.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "3.0": {
+      "op": "a",
+      "children": [],
+      "eclass": "3",
+      "cost": 0
+    },
+    "8.23": {
+      "op": "LUT",
+      "children": [
+        "46.0",
+        "2.0",
+        "3.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "7.3": {
+      "op": "LUT",
+      "children": [
+        "29.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "7",
+      "cost": 1
+    },
+    "23.0": {
+      "op": "248",
+      "children": [],
+      "eclass": "23",
+      "cost": 0
+    },
+    "4.1": {
+      "op": "LUT",
+      "children": [
+        "1.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "4",
+      "cost": 1
+    },
+    "111.0": {
+      "op": "35",
+      "children": [],
+      "eclass": "111",
+      "cost": 0
+    },
+    "75.49": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "5.0",
+        "3.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.50": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "6.0",
+        "2.0",
+        "3.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "20.0": {
+      "op": "19",
+      "children": [],
+      "eclass": "20",
+      "cost": 0
+    },
+    "68.0": {
+      "op": "4959",
+      "children": [],
+      "eclass": "68",
+      "cost": 0
+    },
+    "75.36": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "3.0",
+        "6.0",
+        "2.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.21": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "2.0",
+        "3.0",
+        "5.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.48": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "5.0",
+        "2.0",
+        "3.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.21": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "6.0",
+        "5.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.2": {
+      "op": "LUT",
+      "children": [
+        "17.0",
+        "4.0",
+        "5.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.5": {
+      "op": "LUT",
+      "children": [
+        "23.0",
+        "4.0",
+        "5.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.13": {
+      "op": "LUT",
+      "children": [
+        "38.0",
+        "2.0",
+        "3.0",
+        "7.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.45": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "2.0",
+        "6.0",
+        "5.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "4.0": {
+      "op": "LUT",
+      "children": [
+        "1.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "4",
+      "cost": 1
+    },
+    "75.1": {
+      "op": "NOT",
+      "children": [
+        "8.0"
+      ],
+      "eclass": "75",
+      "cost": 0
+    },
+    "94.0": {
+      "op": "27",
+      "children": [],
+      "eclass": "94",
+      "cost": 0
+    },
+    "25.0": {
+      "op": "2",
+      "children": [],
+      "eclass": "25",
+      "cost": 0
+    },
+    "8.17": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "3.0",
+        "2.0",
+        "5.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "31.0": {
+      "op": "236",
+      "children": [],
+      "eclass": "31",
+      "cost": 0
+    },
+    "75.37": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "5.0",
+        "2.0",
+        "6.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.20": {
+      "op": "LUT",
+      "children": [
+        "71.0",
+        "2.0",
+        "3.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.31": {
+      "op": "LUT",
+      "children": [
+        "88.0",
+        "4.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.39": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "6.0",
+        "2.0",
+        "5.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.5": {
+      "op": "LUT",
+      "children": [
+        "17.0",
+        "7.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.6": {
+      "op": "LUT",
+      "children": [
+        "20.0",
+        "2.0",
+        "7.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.7": {
+      "op": "LUT",
+      "children": [
+        "20.0",
+        "3.0",
+        "7.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.13": {
+      "op": "LUT",
+      "children": [
+        "27.0",
+        "6.0",
+        "5.0",
+        "4.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.6": {
+      "op": "LUT",
+      "children": [
+        "23.0",
+        "4.0",
+        "6.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.19": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "5.0",
+        "6.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.31": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "3.0",
+        "6.0",
+        "2.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "92.0": {
+      "op": "11",
+      "children": [],
+      "eclass": "92",
+      "cost": 0
+    },
+    "75.27": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "6.0",
+        "5.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.3": {
+      "op": "LUT",
+      "children": [
+        "15.0",
+        "4.0",
+        "7.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.29": {
+      "op": "LUT",
+      "children": [
+        "78.0",
+        "6.0",
+        "2.0",
+        "4.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "98.0": {
+      "op": "5439",
+      "children": [],
+      "eclass": "98",
+      "cost": 0
+    },
+    "75.23": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "3.0",
+        "2.0",
+        "5.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.27": {
+      "op": "LUT",
+      "children": [
+        "65.0",
+        "2.0",
+        "6.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.30": {
+      "op": "LUT",
+      "children": [
+        "80.0",
+        "3.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.34": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "2.0",
+        "6.0",
+        "3.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.26": {
+      "op": "LUT",
+      "children": [
+        "63.0",
+        "2.0",
+        "6.0",
+        "4.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "44.0": {
+      "op": "1911",
+      "children": [],
+      "eclass": "44",
+      "cost": 0
+    },
+    "75.22": {
+      "op": "LUT",
+      "children": [
+        "73.0",
+        "2.0",
+        "3.0",
+        "6.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.3": {
+      "op": "LUT",
+      "children": [
+        "17.0",
+        "4.0",
+        "6.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.42": {
+      "op": "LUT",
+      "children": [
+        "109.0",
+        "6.0",
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "40.0": {
+      "op": "206",
+      "children": [],
+      "eclass": "40",
+      "cost": 0
+    },
+    "75.43": {
+      "op": "LUT",
+      "children": [
+        "115.0",
+        "3.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "78.0": {
+      "op": "186",
+      "children": [],
+      "eclass": "78",
+      "cost": 0
+    },
+    "8.28": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "2.0",
+        "5.0",
+        "3.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.30": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "3.0",
+        "5.0",
+        "2.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.32": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "5.0",
+        "2.0",
+        "6.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.39": {
+      "op": "LUT",
+      "children": [
+        "94.0",
+        "3.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "60.0": {
+      "op": "174",
+      "children": [],
+      "eclass": "60",
+      "cost": 0
+    },
+    "54.0": {
+      "op": "13",
+      "children": [],
+      "eclass": "54",
+      "cost": 0
+    },
+    "8.8": {
+      "op": "LUT",
+      "children": [
+        "20.0",
+        "5.0",
+        "4.0",
+        "6.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.9": {
+      "op": "LUT",
+      "children": [
+        "20.0",
+        "6.0",
+        "4.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.48": {
+      "op": "LUT",
+      "children": [
+        "111.0",
+        "6.0",
+        "4.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "0.0": {
+      "op": "1",
+      "children": [],
+      "eclass": "0",
+      "cost": 0
+    },
+    "75.17": {
+      "op": "LUT",
+      "children": [
+        "40.0",
+        "2.0",
+        "4.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.33": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "2.0",
+        "5.0",
+        "3.0",
+        "6.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.41": {
+      "op": "LUT",
+      "children": [
+        "107.0",
+        "6.0",
+        "4.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.14": {
+      "op": "LUT",
+      "children": [
+        "38.0",
+        "3.0",
+        "2.0",
+        "7.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "56.0": {
+      "op": "29",
+      "children": [],
+      "eclass": "56",
+      "cost": 0
+    },
+    "2.0": {
+      "op": "s0",
+      "children": [],
+      "eclass": "2",
+      "cost": 0
+    },
+    "8.35": {
+      "op": "LUT",
+      "children": [
+        "68.0",
+        "6.0",
+        "3.0",
+        "5.0",
+        "2.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "8.36": {
+      "op": "LUT",
+      "children": [
+        "83.0",
+        "6.0",
+        "2.0",
+        "4.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "90.0": {
+      "op": "172",
+      "children": [],
+      "eclass": "90",
+      "cost": 0
+    },
+    "75.32": {
+      "op": "LUT",
+      "children": [
+        "90.0",
+        "2.0",
+        "6.0",
+        "3.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "8.40": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "2.0",
+        "5.0",
+        "6.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.4": {
+      "op": "LUT",
+      "children": [
+        "15.0",
+        "7.0",
+        "4.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "42.0": {
+      "op": "49",
+      "children": [],
+      "eclass": "42",
+      "cost": 0
+    },
+    "29.0": {
+      "op": "4",
+      "children": [],
+      "eclass": "29",
+      "cost": 0
+    },
+    "17.0": {
+      "op": "7",
+      "children": [],
+      "eclass": "17",
+      "cost": 0
+    },
+    "75.46": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "3.0",
+        "5.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "75.51": {
+      "op": "LUT",
+      "children": [
+        "118.0",
+        "6.0",
+        "3.0",
+        "2.0",
+        "5.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "65.0": {
+      "op": "83",
+      "children": [],
+      "eclass": "65",
+      "cost": 0
+    },
+    "1.0": {
+      "op": "8",
+      "children": [],
+      "eclass": "1",
+      "cost": 0
+    },
+    "8.16": {
+      "op": "LUT",
+      "children": [
+        "44.0",
+        "2.0",
+        "3.0",
+        "6.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "75.16": {
+      "op": "LUT",
+      "children": [
+        "38.0",
+        "6.0",
+        "5.0",
+        "4.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "118.0": {
+      "op": "60096",
+      "children": [],
+      "eclass": "118",
+      "cost": 0
+    },
+    "75.52": {
+      "op": "LUT",
+      "children": [
+        "129.0",
+        "6.0",
+        "3.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "88.0": {
+      "op": "244",
+      "children": [],
+      "eclass": "88",
+      "cost": 0
+    },
+    "75.38": {
+      "op": "LUT",
+      "children": [
+        "100.0",
+        "5.0",
+        "3.0",
+        "6.0",
+        "2.0"
+      ],
+      "eclass": "75",
+      "cost": 1
+    },
+    "27.0": {
+      "op": "21",
+      "children": [],
+      "eclass": "27",
+      "cost": 0
+    },
+    "7.0": {
+      "op": "LUT",
+      "children": [
+        "1.0",
+        "5.0",
+        "6.0"
+      ],
+      "eclass": "7",
+      "cost": 1
+    },
+    "8.41": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "2.0",
+        "6.0",
+        "5.0",
+        "3.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "6.0": {
+      "op": "b",
+      "children": [],
+      "eclass": "6",
+      "cost": 0
+    },
+    "8.46": {
+      "op": "LUT",
+      "children": [
+        "98.0",
+        "6.0",
+        "2.0",
+        "3.0",
+        "5.0"
+      ],
+      "eclass": "8",
+      "cost": 1
+    },
+    "109.0": {
+      "op": "184",
+      "children": [],
+      "eclass": "109",
+      "cost": 0
+    },
+    "75.2": {
+      "op": "LUT",
+      "children": [
+        "0.0",
+        "8.0"
+      ],
+      "eclass": "75",
+      "cost": 0
+    }
+  },
+  "root_eclasses": [
+    "75"
+  ],
+  "class_data": {
+    "73": "LutAnalysisData { program: Some(63624), const_val: None, input: None, size: None, cut: {} }",
+    "85": "LutAnalysisData { program: Some(71), const_val: None, input: None, size: None, cut: {} }",
+    "46": "LutAnalysisData { program: Some(53), const_val: None, input: None, size: None, cut: {} }",
+    "50": "LutAnalysisData { program: Some(242), const_val: None, input: None, size: None, cut: {} }",
+    "7": "LutAnalysisData { program: None, const_val: None, input: None, size: None, cut: {\"s0\", \"b\"} }",
+    "8": "LutAnalysisData { program: None, const_val: None, input: None, size: None, cut: {\"a\", \"s0\", \"b\"} }",
+    "1": "LutAnalysisData { program: Some(8), const_val: None, input: None, size: None, cut: {} }",
+    "94": "LutAnalysisData { program: Some(27), const_val: None, input: None, size: None, cut: {} }",
+    "2": "LutAnalysisData { program: None, const_val: None, input: Some(\"s0\"), size: None, cut: {\"s0\"} }",
+    "42": "LutAnalysisData { program: Some(49), const_val: None, input: None, size: None, cut: {} }",
+    "65": "LutAnalysisData { program: Some(83), const_val: None, input: None, size: None, cut: {} }",
+    "4": "LutAnalysisData { program: None, const_val: None, input: None, size: None, cut: {\"s0\", \"a\"} }",
+    "113": "LutAnalysisData { program: Some(39), const_val: None, input: None, size: None, cut: {} }",
+    "3": "LutAnalysisData { program: None, const_val: None, input: Some(\"a\"), size: None, cut: {\"a\"} }",
+    "56": "LutAnalysisData { program: Some(29), const_val: None, input: None, size: None, cut: {} }",
+    "68": "LutAnalysisData { program: Some(4959), const_val: None, input: None, size: None, cut: {} }",
+    "31": "LutAnalysisData { program: Some(236), const_val: None, input: None, size: None, cut: {} }",
+    "107": "LutAnalysisData { program: Some(220), const_val: None, input: None, size: None, cut: {} }",
+    "20": "LutAnalysisData { program: Some(19), const_val: None, input: None, size: None, cut: {} }",
+    "25": "LutAnalysisData { program: Some(2), const_val: None, input: None, size: None, cut: {} }",
+    "5": "LutAnalysisData { program: None, const_val: None, input: None, size: None, cut: {\"s0\"} }",
+    "71": "LutAnalysisData { program: Some(202), const_val: None, input: None, size: None, cut: {} }",
+    "6": "LutAnalysisData { program: None, const_val: None, input: Some(\"b\"), size: None, cut: {\"b\"} }",
+    "44": "LutAnalysisData { program: Some(1911), const_val: None, input: None, size: None, cut: {} }",
+    "40": "LutAnalysisData { program: Some(206), const_val: None, input: None, size: None, cut: {} }",
+    "118": "LutAnalysisData { program: Some(60096), const_val: None, input: None, size: None, cut: {} }",
+    "111": "LutAnalysisData { program: Some(35), const_val: None, input: None, size: None, cut: {} }",
+    "80": "LutAnalysisData { program: Some(226), const_val: None, input: None, size: None, cut: {} }",
+    "23": "LutAnalysisData { program: Some(248), const_val: None, input: None, size: None, cut: {} }",
+    "54": "LutAnalysisData { program: Some(13), const_val: None, input: None, size: None, cut: {} }",
+    "75": "LutAnalysisData { program: None, const_val: None, input: None, size: None, cut: {\"b\", \"a\", \"s0\"} }",
+    "0": "LutAnalysisData { program: Some(1), const_val: None, input: None, size: None, cut: {} }",
+    "88": "LutAnalysisData { program: Some(244), const_val: None, input: None, size: None, cut: {} }",
+    "100": "LutAnalysisData { program: Some(60576), const_val: None, input: None, size: None, cut: {} }",
+    "27": "LutAnalysisData { program: Some(21), const_val: None, input: None, size: None, cut: {} }",
+    "109": "LutAnalysisData { program: Some(184), const_val: None, input: None, size: None, cut: {} }",
+    "17": "LutAnalysisData { program: Some(7), const_val: None, input: None, size: None, cut: {} }",
+    "115": "LutAnalysisData { program: Some(228), const_val: None, input: None, size: None, cut: {} }",
+    "98": "LutAnalysisData { program: Some(5439), const_val: None, input: None, size: None, cut: {} }",
+    "38": "LutAnalysisData { program: Some(234), const_val: None, input: None, size: None, cut: {} }",
+    "60": "LutAnalysisData { program: Some(174), const_val: None, input: None, size: None, cut: {} }",
+    "29": "LutAnalysisData { program: Some(4), const_val: None, input: None, size: None, cut: {} }",
+    "63": "LutAnalysisData { program: Some(81), const_val: None, input: None, size: None, cut: {} }",
+    "129": "LutAnalysisData { program: Some(216), const_val: None, input: None, size: None, cut: {} }",
+    "92": "LutAnalysisData { program: Some(11), const_val: None, input: None, size: None, cut: {} }",
+    "15": "LutAnalysisData { program: Some(14), const_val: None, input: None, size: None, cut: {} }",
+    "90": "LutAnalysisData { program: Some(172), const_val: None, input: None, size: None, cut: {} }",
+    "78": "LutAnalysisData { program: Some(186), const_val: None, input: None, size: None, cut: {} }",
+    "83": "LutAnalysisData { program: Some(69), const_val: None, input: None, size: None, cut: {} }"
+  }
+}

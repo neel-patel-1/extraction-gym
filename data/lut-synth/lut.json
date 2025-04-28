@@ -1,0 +1,194 @@
+{
+  "nodes": {
+    "17.8": {
+      "op": "LUT",
+      "children": [
+        "19.0",
+        "3.0",
+        "4.0",
+        "1.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "2.0": {
+      "op": "1",
+      "children": [],
+      "eclass": "2",
+      "cost": 0
+    },
+    "4.0": {
+      "op": "NOT",
+      "children": [
+        "3.0"
+      ],
+      "eclass": "4",
+      "cost": 0
+    },
+    "17.1": {
+      "op": "LUT",
+      "children": [
+        "0.0",
+        "1.0",
+        "4.0",
+        "3.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "4.1": {
+      "op": "LUT",
+      "children": [
+        "2.0",
+        "3.0"
+      ],
+      "eclass": "4",
+      "cost": 0
+    },
+    "17.2": {
+      "op": "LUT",
+      "children": [
+        "8.0",
+        "4.0",
+        "1.0",
+        "3.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "1.0": {
+      "op": "s",
+      "children": [],
+      "eclass": "1",
+      "cost": 0
+    },
+    "17.7": {
+      "op": "LUT",
+      "children": [
+        "16.0",
+        "3.0",
+        "1.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "17.4": {
+      "op": "LUT",
+      "children": [
+        "12.0",
+        "3.0",
+        "1.0",
+        "4.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "17.5": {
+      "op": "LUT",
+      "children": [
+        "14.0",
+        "4.0",
+        "3.0",
+        "1.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "10.0": {
+      "op": "172",
+      "children": [],
+      "eclass": "10",
+      "cost": 0
+    },
+    "0.0": {
+      "op": "202",
+      "children": [],
+      "eclass": "0",
+      "cost": 0
+    },
+    "17.6": {
+      "op": "LUT",
+      "children": [
+        "16.0",
+        "1.0",
+        "3.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "19.0": {
+      "op": "216",
+      "children": [],
+      "eclass": "19",
+      "cost": 0
+    },
+    "17.0": {
+      "op": "MUX",
+      "children": [
+        "1.0",
+        "4.0",
+        "3.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "14.0": {
+      "op": "228",
+      "children": [],
+      "eclass": "14",
+      "cost": 0
+    },
+    "12.0": {
+      "op": "184",
+      "children": [],
+      "eclass": "12",
+      "cost": 0
+    },
+    "3.0": {
+      "op": "b",
+      "children": [],
+      "eclass": "3",
+      "cost": 0
+    },
+    "17.3": {
+      "op": "LUT",
+      "children": [
+        "10.0",
+        "1.0",
+        "3.0",
+        "4.0"
+      ],
+      "eclass": "17",
+      "cost": 1
+    },
+    "16.0": {
+      "op": "6",
+      "children": [],
+      "eclass": "16",
+      "cost": 0
+    },
+    "8.0": {
+      "op": "226",
+      "children": [],
+      "eclass": "8",
+      "cost": 0
+    }
+  },
+  "root_eclasses": [
+    "17"
+  ],
+  "class_data": {
+    "3": "LutAnalysisData { program: None, const_val: None, input: Some(\"b\"), size: None, cut: {\"b\"} }",
+    "17": "LutAnalysisData { program: None, const_val: None, input: None, size: None, cut: {\"b\", \"s\"} }",
+    "8": "LutAnalysisData { program: Some(226), const_val: None, input: None, size: None, cut: {} }",
+    "4": "LutAnalysisData { program: None, const_val: None, input: None, size: None, cut: {\"b\"} }",
+    "14": "LutAnalysisData { program: Some(228), const_val: None, input: None, size: None, cut: {} }",
+    "0": "LutAnalysisData { program: Some(202), const_val: None, input: None, size: None, cut: {} }",
+    "16": "LutAnalysisData { program: Some(6), const_val: None, input: None, size: None, cut: {} }",
+    "10": "LutAnalysisData { program: Some(172), const_val: None, input: None, size: None, cut: {} }",
+    "12": "LutAnalysisData { program: Some(184), const_val: None, input: None, size: None, cut: {} }",
+    "19": "LutAnalysisData { program: Some(216), const_val: None, input: None, size: None, cut: {} }",
+    "1": "LutAnalysisData { program: None, const_val: None, input: Some(\"s\"), size: None, cut: {\"s\"} }",
+    "2": "LutAnalysisData { program: Some(1), const_val: None, input: None, size: None, cut: {} }"
+  }
+}
