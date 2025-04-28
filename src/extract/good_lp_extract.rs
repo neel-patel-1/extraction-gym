@@ -16,8 +16,8 @@ impl Extractor for GoodLPExtractor {
     fn extract(&self, egraph: &EGraph, roots: &[ClassId]) ->
     ExtractionResult {
 
-        for class in egraph.classes() {
-            print!("class {:?}: ", class);
+        for (class_id,class) in egraph.classes() {
+            print!("class {:?}: ", class.id);
         }
 
         let result = ExtractionResult::default();
