@@ -27,7 +27,7 @@ impl Extractor for GoodLPExtractor {
         }
 
         for (class_id,class) in egraph.classes() {
-            print!("class {:?}: ", class.id);
+            let t_parent = topo_vars[class_id];
         }
 
         let result = ExtractionResult::default();
