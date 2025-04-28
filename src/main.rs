@@ -98,6 +98,16 @@ fn extractors() -> IndexMap<&'static str, ExtractorDetail> {
                 use_for_bench: true,
             },
         ),
+        #[cfg(feature = "good_lp-ilp")]
+        (
+            "good_lp-ilp",
+            ExtractorDetail {
+                extractor: extract::good_lp_extract::GoodLpExtractor.boxed(),
+                optimal: Optimal::DAG,
+                use_for_bench: true,
+            },
+        )
+
     ]
     .into_iter()
     .collect();
@@ -158,11 +168,11 @@ fn main() {
     log::info!("{filename:40}\t{extractor_name:10}\t{tree:5}\t{dag:5}\t{us:5}");
     writeln!(
         out_file,
-        r#"{{ 
+        r#"{{
     "name": "{filename}",
-    "extractor": "{extractor_name}", 
-    "tree": {tree}, 
-    "dag": {dag}, 
+    "extractor": "{extractor_name}",
+    "tree": {tree},
+    "dag": {dag},
     "micros": {us}
 }}"#
     )

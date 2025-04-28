@@ -6,14 +6,15 @@ EXTRACTORS=$(shell cargo run -q $(FLAGS) -- --extractor=print)
 PROGRAM=target/release/extraction-gym
 
 SRC=$(shell find . -name '.rs') Cargo.toml Cargo.lock
-DATA=$(shell find data -name '*.json')
+DATA=$(shell find data/lut-synth -name '*.json')
 
 TARGETS=
 
 .PHONY: all
-all: test nits bench
+all: bench
 
 define run-extraction
+$(info Running extractor: $(2) on data: $(1))
 TARGETS += $(1:data/%=output/%)-$(2).json
 $(1:data/%=output/%)-$(2).json: $(1)
 	@mkdir -p $$(dir $$@)
