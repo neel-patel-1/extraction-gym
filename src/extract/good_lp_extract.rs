@@ -18,6 +18,7 @@ impl Extractor for GoodLPExtractor {
         let mut vars = variables!();
         let mut constraints = Vec::new();
         let mut enode_vars: HashMap<(ClassId, usize), Variable> = HashMap::new();
+        let mut total_cost: Expression = 0.into();
 
         /* t_m */
         const EPS: f64 = 1e-3;
@@ -47,10 +48,13 @@ impl Extractor for GoodLPExtractor {
                     let child_sum: Expression = child_vars.iter().cloned().sum();
                     constraints.push(Into::<Expression>::into(node_var.clone()).leq(child_sum));
                 }
+                let node = &egraph[_node];
+                let cost = node.cost.into_inner();
 
-
+                total_cost += cost * node_var;
             }
         }
+
 
 
         let result = ExtractionResult::default();
