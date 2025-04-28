@@ -98,11 +98,11 @@ fn extractors() -> IndexMap<&'static str, ExtractorDetail> {
                 use_for_bench: true,
             },
         ),
-        #[cfg(feature = "good_lp-ilp")]
+        #[cfg(feature = "ilp-good_lp")]
         (
             "good_lp-ilp",
             ExtractorDetail {
-                extractor: extract::good_lp_extract::GoodLpExtractor.boxed(),
+                extractor: extract::good_lp_extract::GoodLPExtractor.boxed(),
                 optimal: Optimal::DAG,
                 use_for_bench: true,
             },

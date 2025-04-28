@@ -13,8 +13,12 @@ use std::collections::HashMap;
 
 pub struct GoodLPExtractor;
 impl Extractor for GoodLPExtractor {
-    fn extract(&self, egraph: &EGraph, _roots: &[ClassId]) ->
+    fn extract(&self, egraph: &EGraph, roots: &[ClassId]) ->
     ExtractionResult {
+
+        for class in egraph.classes() {
+            print!("class {:?}: ", class);
+        }
 
         let result = ExtractionResult::default();
         result

@@ -19,7 +19,7 @@ rand = "0.8.5"
 walkdir = "2.4.0"
 anyhow = "1.0.71"
 coin_cbc = { version = "0.1.6", optional = true }
-good_lp = { version = "*", features = ["clarabel"], default-features = false, optional = true } # allowed solvers are coin_cbc (default), highs, lp-solvers, lpsolve, microlp, scip, scip_bundled
+good_lp = { version = "*", features = ["coin_cbc"], default-features = false, optional = true } # allowed solvers are coin_cbc (default), highs, lp-solvers, lpsolve, microlp, scip, scip_bundled
 smallvec = { version = "1.8.0", features = ["union", "const_generics"] }
 im-rc = "15.1.0"
 rustc-hash = "1.1.0"
