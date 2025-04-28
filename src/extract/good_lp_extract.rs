@@ -74,7 +74,28 @@ impl Extractor for GoodLPExtractor {
 
         let obj_cost = solution.eval(&total_cost);
 
-        let result = ExtractionResult::default();
-        result
+        let mut result = ExtractionResult::default();
+
+        // Our original implementation performs a depth-first reconstruction, recursively. We do the same here, except instead of building up a `RecExpr`, we simply add the selected nodes to the `ExtractionResult`.
+        fn reconstruct(egraph: &EGraph, class_id: &ClassId, solution: &dyn Solution, enode_vars: &HashMap<(ClassId, usize), Variable>, result: &mut ExtractionResult) {
+            let class = &egraph[class_id];
+            for (node_index, node) in class.nodes.iter().enumerate() {
+                let var = enode_vars[&(class_id.clone(), node_index)];
+                if solution.value(var) > 0.5 {
+                    for child in &egraph.nodes[node_index].children {
+                        let child_class = egraph.nid_to_class(child);
+                        reconstruct(egraph, &child_class.id, solution, enode_vars, result);
+                    }
+                    result.choose(class_id.clone(), node.clone());
+                    break;
+                }
+            }
+        }
+
+        for root in roots {
+            reconstruct(egraph, root, &solution, &enode_vars, &mut result);
+        }
+
+        return result
     }
 }
