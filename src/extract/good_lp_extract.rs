@@ -31,6 +31,18 @@ impl Extractor for GoodLPExtractor {
                     .entry((class.id.clone(), node_index))
                     .or_insert_with(|| vars.add(variable().binary()));
 
+                for child in &egraph.nodes[node_index].children {
+                    let child_class = egraph.nid_to_class(&child);
+                    let mut child_vars = Vec::new();
+                    for (c_idx, _c_node) in child_class.nodes.iter().enumerate() {
+                        let var = enode_vars
+                            .entry((child_class.id.clone(), c_idx))
+                            .or_insert_with(|| vars.add(variable().binary()))
+                            .clone();
+                        child_vars.push(var);
+                    }
+                }
+
             }
         }
 
