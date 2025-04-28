@@ -62,9 +62,17 @@ impl Extractor for GoodLPExtractor {
                 .enumerate()
                 .map(|(node_index, _)| enode_vars[&(root.clone(), node_index)].clone())
                 .collect::<Vec<_>>();
+            constraints.push(root_vars.iter().cloned().sum::<Expression>().eq(1));
         }
 
+        let solution = vars
+            .minimise(&total_cost)
+            .using(default_solver)
+            .with_all(constraints)
+            .solve()
+            .unwrap();
 
+        let obj_cost = solution.eval(&total_cost);
 
         let result = ExtractionResult::default();
         result
