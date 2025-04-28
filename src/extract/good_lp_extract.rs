@@ -54,6 +54,15 @@ impl Extractor for GoodLPExtractor {
                 total_cost += cost * node_var;
             }
         }
+        for root in roots {
+            let root_class = &egraph[root];
+            let root_vars = root_class
+                .nodes
+                .iter()
+                .enumerate()
+                .map(|(node_index, _)| enode_vars[&(root.clone(), node_index)].clone())
+                .collect::<Vec<_>>();
+        }
 
 
 
