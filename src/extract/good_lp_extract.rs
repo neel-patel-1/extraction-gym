@@ -16,6 +16,7 @@ impl Extractor for GoodLPExtractor {
     fn extract(&self, egraph: &EGraph, roots: &[ClassId]) ->
     ExtractionResult {
         let mut vars = variables!();
+        let mut constraints = Vec::new();
         let mut enode_vars: HashMap<(ClassId, usize), Variable> = HashMap::new();
 
         /* t_m */
@@ -27,9 +28,11 @@ impl Extractor for GoodLPExtractor {
             topo_vars.insert(class.id.clone(), t_m);
 
             for (node_index, _node) in class.nodes.iter().enumerate() {
-                let node_var = enode_vars
+                let node_var = { enode_vars
                     .entry((class.id.clone(), node_index))
-                    .or_insert_with(|| vars.add(variable().binary()));
+                    .or_insert_with(|| vars.add(variable().binary()))
+                    .clone()
+                };
 
                 for child in &egraph.nodes[node_index].children {
                     let child_class = egraph.nid_to_class(&child);
@@ -41,7 +44,10 @@ impl Extractor for GoodLPExtractor {
                             .clone();
                         child_vars.push(var);
                     }
+                    let child_sum: Expression = child_vars.iter().cloned().sum();
+                    constraints.push(Into::<Expression>::into(node_var.clone()).leq(child_sum));
                 }
+
 
             }
         }
