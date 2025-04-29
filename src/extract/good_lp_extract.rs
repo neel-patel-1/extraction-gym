@@ -47,6 +47,12 @@ impl Extractor for GoodLPExtractor {
                     }
                     let child_sum: Expression = child_vars.iter().cloned().sum();
                     constraints.push(Into::<Expression>::into(node_var.clone()).leq(child_sum));
+
+                    let node_expr: Expression = node_var.clone().into();
+                    let t_child = topo_vars[&child_class.id].clone();
+                    let big_m_part: Expression = (Into::<Expression>::into(1.0) - node_expr.clone()) * ALPHA;
+                    let acyc_expr: Expression = t_m.clone() - t_child - (Into::<Expression>::into(EPS)) + big_m_part;
+                    constraints.push(Into::<Expression>::into(acyc_expr).geq(Into::<Expression>::into(0)));
                 }
                 let node = &egraph[_node];
                 let cost = node.cost.into_inner();
